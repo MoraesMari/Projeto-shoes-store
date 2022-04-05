@@ -4,3 +4,4 @@ Distribuição de atividade para os integrantes do grupo:
 James Oliveira -> cabeçalho;
 Mariana Moraes -> main;
 Giovanni Tavares -> footer.
+Proposta de reprodução: https://www.figma.com/file/saXdAb9rjfQBJUJIxYqr30/Shoes-Store?node-id=0%3A1
