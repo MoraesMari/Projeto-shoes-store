@@ -24,6 +24,56 @@ footer {
 
 .logo-footer {
     position: absolute;
-    width: 233PX;
+    width: 233px;
     height: 123px;
+    left: 127px;
+    top: 19px;
+}
+
+.texto-footer {
+    position: absolute;
+    width: 255px;
+    height: 91px;
+    left: 128px;
+    top: 119px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+.categorias {
+    position: absolute;
+    width: 104px;
+    height: 137px;
+    left: 646px;
+    top: 56px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+
+.institucional {
+    position: absolute;
+    width: 246px;
+    height: 161px;
+    left: 886px;
+    top: 56px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FFFFFF;
 }
