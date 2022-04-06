@@ -51,7 +51,7 @@ footer {
     width: 104px;
     height: 137px;
     left: 646px;
-    top: 56px;
+    top: 50px;
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -68,6 +68,7 @@ footer {
     height: 161px;
     left: 886px;
     top: 56px;
+    display: inline-block;
 
     font-family: 'Open Sans';
     font-style: normal;
