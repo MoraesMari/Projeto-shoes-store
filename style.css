@@ -47,6 +47,12 @@ header .logo {
     width: 100%;
 }
 
+#titulo1 {
+    font-size: 39px;
+    color: #575757
+    
+}
+
 
 footer { 
     width: 100%;
