@@ -275,10 +275,6 @@ footer {
     height: 123px;
     left: 127px;
     top: 19px;
-
-img .logo-footer {
-    width: 233PX;
-    height: 123px;
     cursor: pointer;
 }
 
@@ -321,6 +317,7 @@ img .logo-footer {
     left: 886px;
     top: 56px;
     display: inline-block;
+    text-decoration: none;
 
     font-family: 'Open Sans';
     font-style: normal;
