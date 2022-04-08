@@ -9,108 +9,21 @@
     font-family: 'Ropa Sans', sans-serif;
 }
 
+
 header {
+  
+    width: 100%;
+    height: 150px;
     background-color: white;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-
-#titulo1 {
-    margin-top: 3%;
-    margin-left: 15%;
-    font-size: 39px;
-    color: #575757;
-}
-
-.form {
-        margin-left: 15%;
-}
-
-#nomeform {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    margin-top: 15px;
-    margin-left: 10px;
-    font-style: normal;
-    font-size: 18px;
-    color: #9B9B9B
-}
-
-#emailform {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    margin-top: 15px;
-    margin-left: 10px;
-    font-size: 18px;
-    color: #9B9B9B
-}
-
-
-#caixaform {
-    display: left;
-    width: 537px;
-    height: 26px;
-    font-size: 18px;
-}
-
-#enviarform {
-    background-color: #C2185B;
-    color: white;
-    font-size: 20px;    
-    font-family: 'Ropa Sans', sans-serif;
-    width: 537px;
-    height: 33px;
-    padding-bottom: 15px;
-}
-
-
-#nometelefone {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    margin-top: 15px;
-    margin-left: 10px;
-    font-size: 18px;
-    color: #9B9B9B;
-}
-
-#telefone {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    margin-top: 15px;
-    margin-left: 0px;
-    font-size: 18px;
-    width: 537px;
-}
-
-#nomedepartamentos {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    margin-top: 15px;
-    margin-left: 10px;
-    font-size: 18px;
-    color: #9B9B9B;
-}
-
-#departamentos {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    margin-top: 15px;
-    margin-left: 0px;
-    font-size: 18px;
-    width: 537px;
-}
-
 
 header .logo{
     width: 215px;
     height: 110px;
     padding: 9px;
 }
+
 
 #menu {
     float: right;
@@ -119,16 +32,19 @@ header .logo{
 }
 
 #menu ul { 
+    float: left;
     list-style-type: none;
     padding: 10px;
     cursor: pointer;
 }
 
 #menu ul li { 
+   
     display: inline
 }
 
 #menu ul li a { 
+    
     color: #777777;
     padding: 12px;
     display: inline-block;
@@ -143,6 +59,8 @@ header .logo {
 }
 
 .banner-principal {
+    display: flex;
+    justify-content:center;
     width: 100%;
     cursor: pointer;
 }
@@ -258,9 +176,9 @@ button {
 }
 
 
-
-
 footer { 
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
     height: 248px;
     background: #C2185B;
@@ -270,7 +188,7 @@ footer {
 }
 
 .logo-footer {
-    position: absolute;
+    
     width: 233px;
     height: 123px;
     left: 127px;
@@ -279,7 +197,7 @@ footer {
 }
 
 .texto-footer {
-    position: absolute;
+    
     width: 255px;
     height: 91px;
     left: 128px;
@@ -295,7 +213,7 @@ footer {
 }
 
 .categorias {
-    position: absolute;
+    
     width: 104px;
     height: 137px;
     left: 646px;
@@ -311,7 +229,7 @@ footer {
 }
 
 .institucional {
-    position: absolute;
+    
     width: 246px;
     height: 161px;
     left: 886px;
