@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
 
+
 * {
     margin: 0 auto;
     padding: 0;
@@ -8,11 +9,67 @@
     font-family: 'Ropa Sans', sans-serif;
 }
 
+header {
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#titulo1 {
+    margin-top: 3%;
+    margin-left: 15%;
+    font-size: 39px;
+    color: #575757;
+}
+
+.form {
+        margin-left: 15%;
+}
+
+#nomeform {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-style: normal;
+    font-size: 18px;
+    color: #9B9B9B
+}
+
+#emailform {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #9B9B9B
+}
+
+
+#caixaform {
+    display: left;
+    width: 538px;
+    height: 26px;
+}
+
+#enviarform {
+    background-color: #C2185B;
+    color: white;
+    font-size: 20px;    
+    font-family: 'Ropa Sans', sans-serif;
+    width: 537px;
+    height: 33px;
+    padding-bottom: 15px;
+}
+
+
 header .logo{
     width: 215px;
     height: 110px;
     padding: 9px;
 }
+
 #menu {
     float: right;
     padding-top: 20px;
@@ -157,6 +214,8 @@ button {
     color: #fff;
     border: none;
 }
+
+
 
 
 footer { 
