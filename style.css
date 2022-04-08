@@ -49,8 +49,9 @@ header {
 
 #caixaform {
     display: left;
-    width: 538px;
+    width: 537px;
     height: 26px;
+    font-size: 18px;
 }
 
 #enviarform {
@@ -61,6 +62,47 @@ header {
     width: 537px;
     height: 33px;
     padding-bottom: 15px;
+}
+
+
+#nometelefone {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #9B9B9B;
+}
+
+#telefone {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 15px;
+    margin-left: 0px;
+    font-size: 18px;
+    width: 537px;
+}
+
+#nomedepartamentos {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #9B9B9B;
+}
+
+#departamentos {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 15px;
+    margin-left: 0px;
+    font-size: 18px;
+    width: 537px;
 }
 
 
