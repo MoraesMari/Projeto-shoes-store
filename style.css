@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
 
+
 * {
     margin: 0 auto;
     padding: 0;
@@ -8,11 +9,67 @@
     font-family: 'Ropa Sans', sans-serif;
 }
 
+header {
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#titulo1 {
+    margin-top: 3%;
+    margin-left: 15%;
+    font-size: 39px;
+    color: #575757;
+}
+
+.form {
+        margin-left: 15%;
+}
+
+#nomeform {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-style: normal;
+    font-size: 18px;
+    color: #9B9B9B
+}
+
+#emailform {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #9B9B9B
+}
+
+
+#caixaform {
+    display: left;
+    width: 538px;
+    height: 26px;
+}
+
+#enviarform {
+    background-color: #C2185B;
+    color: white;
+    font-size: 20px;    
+    font-family: 'Ropa Sans', sans-serif;
+    width: 537px;
+    height: 33px;
+    padding-bottom: 15px;
+}
+
+
 header .logo{
     width: 215px;
     height: 110px;
     padding: 9px;
 }
+
 #menu {
     float: right;
     padding-top: 20px;
@@ -45,7 +102,120 @@ header .logo {
 
 .banner-principal {
     width: 100%;
+    cursor: pointer;
 }
+
+.titulo-conteudo {
+    display:flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 45px;
+}
+
+.modelo-esquerda {
+    width: 25vw;
+    height: 80vh;
+    margin: 0px 10px 0px 0px;
+}
+
+.modelo-direita {
+    width: 37vw;
+    height: 105vh;
+    margin: 0px 0px 0px 10px;
+}
+
+.modelos {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 100px 0px;
+}
+
+.titulo-promocao{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    color: #fff;
+    padding: 80px;
+    font-size: 40px;
+}
+
+.promocao {
+    width: 100%;
+    height: 750px;
+    background-color: #C2185B;
+    
+}
+
+.saltos-promocionais{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primeiro-salto {
+    background-color: #fff;
+    padding-bottom: 15px;
+}
+
+.nome-sapato-branco, .preco-sapato-branco {
+    padding: 10px 0px 0px 10px;
+}
+
+.segundo-salto {
+    background-color: #fff;
+    padding-bottom: 15px;
+}
+
+.nome-sapato-rosa, .preco-sapato-rosa {
+    padding: 10px 0px 0px 10px;
+}
+
+.terceiro-salto {
+    background-color: #fff;
+    padding-bottom: 15px;
+}
+
+.nome-sapato-terra-cota, .preco-sapato-terra-cota {
+    padding: 10px 0px 0px 10px;
+}
+
+.quarto-salto {
+    background-color: #fff;
+    padding-bottom: 15px;
+}
+
+.nome-sapato-verde-militar, .preco-sapato-verde-militar {
+    padding: 10px 0px 0px 10px;
+}
+
+.produto-destaque {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.titulo-produto-destaque {
+    flex-wrap: wrap;
+    font-size: 35px;
+}
+
+
+button {
+    background-color: #C2185B;
+    width: 350px;
+    height: 80px;
+    cursor: pointer;
+    font-family:'Ropa Sans', sans-serif;
+    font-size: 35px;
+    color: #fff;
+    border: none;
+}
+
+
 
 
 footer { 
