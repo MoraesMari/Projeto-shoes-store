@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2px;
+}
+
+header .logo{
+    
+    width: 215px;
+    height: 110px;
+    cursor: pointer;
+}
+
+
+#menu {
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+#menu ul { 
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#menu ul li { 
+
+    display: inline
+}
+
+#menu ul li a { 
+    
+    color: #777777;
+    padding: 12px;
+    display: inline-block;
+}
+
+#menu li a:hover{ 
+    color: #C2185B;
+}
+
+
 #titulo1 {
     margin-top: 3%;
     margin-left: 15%;
@@ -87,4 +146,76 @@
     margin-left: 0px;
     font-size: 18px;
     width: 537px;
+}
+
+
+
+footer { 
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 248px;
+    background: #C2185B;
+    color: #FFF;
+    padding: 9px 9px 9px 19px;
+    
+}
+
+.logo-footer {
+    
+    width: 233px;
+    height: 123px;
+    left: 127px;
+    top: 19px;
+    cursor: pointer;
+}
+
+.texto-footer {
+    
+    width: 255px;
+    height: 91px;
+    left: 128px;
+    top: 119px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+.categorias {
+    
+    width: 104px;
+    height: 137px;
+    left: 646px;
+    top: 50px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+
+.institucional {
+    
+    width: 246px;
+    height: 161px;
+    left: 886px;
+    top: 56px;
+    display: inline-block;
+    text-decoration: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FFFFFF;
 }

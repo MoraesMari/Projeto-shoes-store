@@ -70,7 +70,7 @@ header .logo{
     
 } */
 
-.titulo-conteudo {
+.titulo-conteudo {      
     display:flex;
     justify-content: center;
     padding: 50px;
