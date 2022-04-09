@@ -42,7 +42,7 @@ header .logo{
 }
 
 #menu ul li { 
-   
+
     display: inline
 }
 
@@ -57,13 +57,13 @@ header .logo{
     color: #C2185B;
 }
 
-
 .banner-principal {
     display: flex;
-    justify-content:center;
-    width: 100%;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
 }
+
 /* Aqui vai a sombra do Banner no TOP
 .banner-principal {
     border-top: rgb(96, 96, 97) solid 1px;
