@@ -11,22 +11,25 @@
 
 
 header {
-  
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 150px;
     background-color: white;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    margin-bottom: 2px;
 }
 
 header .logo{
+    
     width: 215px;
     height: 110px;
-    padding: 9px;
+    cursor: pointer;
 }
 
 
 #menu {
-    float: right;
     padding-top: 20px;
     font-size: 24px;
 }
@@ -54,9 +57,6 @@ header .logo{
     color: #C2185B;
 }
 
-header .logo {
-    cursor: pointer;
-}
 
 .banner-principal {
     display: flex;
@@ -64,6 +64,11 @@ header .logo {
     width: 100%;
     cursor: pointer;
 }
+/* Aqui vai a sombra do Banner no TOP
+.banner-principal {
+    border-top: rgb(96, 96, 97) solid 1px;
+    
+} */
 
 .titulo-conteudo {
     display:flex;
