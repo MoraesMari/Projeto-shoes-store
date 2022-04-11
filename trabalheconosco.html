@@ -28,29 +28,29 @@
 <main> 
   <h1 id="titulo1">Faça parte do nosso time<h1> 
     
-  <form class="form">
-      <div> 
+  <form action="/trabalheconosco" method="POST">
+      <div class="informacoes"> 
+
           <label id="nomeform" for="nome">Nome</label>
           <input id="caixaform" type="text" id="nome" name="nome" required>
-      </div>
-      <div>
+      
           <label id="emailform" for="email">E-mail</label required>
           <input id="caixaform" type="email" id="email" name="email" required>
-      </div>
 
-      <label for="nome" id="nometelefone">Telefone</label>
-      <input type="text" id="telefone" name="nome">
+          <label for="nome" id="nometelefone">Telefone</label>
+          <input type="text" id="telefone" name="nome" placeholder="(xx)xxxxx-xxxx">
 
-      <label for="departamentos" id="nomedepartamentos">Departamentos</label>
-      <select name="departamentos" id="departamentos" required>
-        <option selected disabled>Selecione</option>
-        <option value="marketing">Marketing</option>
-        <option value="vendas">Compra e Venda</option>
-        <option value="atendimento">Atendimento e Suporte ao Cliente</option>
-        <option value="desenvolvedor">Desenvolvedor Web</option>
-      </select>
+          <label for="departamentos" id="nomedepartamentos">Departamentos</label>
+          <select name="departamentos" id="departamentos" required>
+            <option selected disabled>Selecione</option>
+            <option value="marketing">Marketing</option>
+            <option value="vendas">Compra e Venda</option>
+            <option value="atendimento">Atendimento e Suporte ao Cliente</option>
+            <option value="desenvolvedor">Desenvolvedor Web</option>
+          </select>
 
       <button id="enviarform" type="submit">Enviar</button>
+      </div>
    
   </form>
 </main>

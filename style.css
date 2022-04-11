@@ -11,8 +11,11 @@
 
 header {
     background-color: white;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 100px 100px 100px rgba(0, 0, 0, 0.2);
+    z-index: 2;
 }
+
+
 
 #titulo1 {
     margin-top: 3%;
@@ -33,7 +36,7 @@ header {
     margin-left: 10px;
     font-style: normal;
     font-size: 18px;
-    color: #9B9B9B
+    color: #9B9B9B;
 }
 
 #emailform {
@@ -43,7 +46,7 @@ header {
     margin-top: 15px;
     margin-left: 10px;
     font-size: 18px;
-    color: #9B9B9B
+    color: #9B9B9B;
 }
 
 
@@ -143,7 +146,8 @@ header .logo {
 }
 
 .banner-principal {
-    width: 100%;
+    margin: 0px auto;
+    display: flex;
 }
 
 
