@@ -22,6 +22,9 @@
           <li>             
             <a>OUTLET</a>          
           </li>  
+          <li>            
+            <a href="/trabalhe-conosco.html">TRABALHE CONOSCO</a>         
+           </li>  
         </ul>     
       </nav>
     </div>
@@ -36,19 +39,16 @@
     <div class="container">
       
       <form class="form" action = "/trabalhe-conosco.html" method="POST">
-        <div> 
-          <label id="nomeform" for="nome">Nome</label>
-          <input id="caixaform" type="text" id="nome" name="nome" required placeholder="Digite seu nome">
-        </div>
-  
-        <div>
-          <label id="emailform" for="email">E-mail</label required>
-          <input id="caixaform" type="email" id="email" name="email" required placeholder="seuemail@email.com">
-        </div>
-  
+        
+        <label id="nomeform" for="nome">Nome</label>
+        <input id="caixaform" type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                
+        <label id="emailform" for="email">E-mail</label required>
+        <input id="caixaform" type="email" id="email" name="email" required placeholder="seuemail@email.com">
+            
         <label for="nome" id="nometelefone">Telefone</label>
         <input type="text" id="telefone" name="nome" placeholder="(xx) xxxxx-xxxx" data-mask="(00) 00000-0000" data-mask-selectonfocus="true">
-  
+      
         <label for="departamentos" id="nomedepartamentos">Departamentos</label>
         <select name="departamentos" id="departamentos" required>
           <option selected disabled>Selecione</option>
@@ -57,8 +57,55 @@
           <option value="atendimento">Atendimento e Suporte ao Cliente</option>
           <option value="desenvolvedor">Desenvolvedor Web</option>
         </select>
-  
-        <button id="enviarform" type="submit">Enviar</button>
+        
+          <br>
+        <section id="disponibilidade">
+          <br>
+          <p>Disponibilidade</p>
+          <br>
+            <input type="checkbox" id="Integral" name="Integral">
+            <label for="disponibilidade">Integral (8h)</label>
+                              
+            <input type="checkbox" id="Meioperiodo" name="Meioperiodo">
+            <label for="disponibilidade">Meio período (4h)</label>
+                
+            <input type="checkbox" id="Freelancer" name="Freelancer">
+            <label for="disponibilidade">Freelancer</label>
+                
+        </section>
+        <br>
+        <section id="opcoescontatouser">
+          
+          <p>Qual a melhor forma para entrarmos em contato com você?</p>
+          <br>
+          <input type="radio" id="email" name="poremail" value="email">
+          <label for="email">Email</label><br>
+
+          <input type="radio" id="ligacao" name="porligacao" value="ligacao">
+          <label for="ligacao">Ligação</label><br>
+
+          <input type="radio" id="whatsapp" name="porwhatsapp" value="whatsapp">
+          <label for="whatsapp">WhatsApp</label>
+        </section>
+        
+        <section id="caixademensagem"></div>
+
+          <label for="email">Mensagem</label><br>
+          <input type="textarea" id="caixademensagem" name="caixademensagem">
+                  
+        </section>
+
+        <section id="curriculo">
+
+        <label for="Curriculo">Currículo</label><br>
+        <input type="file" />
+
+        </section>
+
+        <section>
+          <button id="enviarform" type="submit">Enviar</button>
+        </section> 
+        
       </form>
   
       <div class="paragrafos">

@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ropa Sans', sans-serif;
+    text-decoration: none;
 }
 
 
@@ -20,6 +21,7 @@ header {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     margin-bottom: 2px;
     z-index: 15;
+    text-decoration: none;
 }
 
 header .logo{
@@ -32,6 +34,7 @@ header .logo{
 #menu {
     padding-top: 20px;
     font-size: 24px;
+    text-decoration: none;
 }
 
 #menu ul { 
@@ -47,7 +50,7 @@ header .logo{
 }
 
 #menu ul li a { 
-    
+    text-decoration: none;
     color: #777777;
     padding: 12px;
     display: inline-block;
@@ -238,7 +241,7 @@ footer {
 }
 
 .institucional {
-    
+   
     width: 246px;
     height: 161px;
     left: 886px;
@@ -253,4 +256,9 @@ footer {
     line-height: 18px;
 
     color: #FFFFFF;
+}
+
+.institucional li {
+    text-decoration: none;
+
 }

@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ropa Sans', sans-serif;
+   
 }
 
 
@@ -20,6 +21,7 @@ header {
     margin-bottom: 2px;
     position: relative;
     z-index: 16;
+    
 }
 
 header .logo{
@@ -72,12 +74,12 @@ main {
 }
 
 #menu ul li { 
-
+    
     display: inline
 }
 
 #menu ul li a { 
-    
+    text-decoration: none;
     color: #777777;
     padding: 12px;
     display: inline-block;
@@ -189,6 +191,28 @@ main {
     border: 0.5px solid #575757;
 }
 
+#disponibilidade {
+    
+    font-size: 18px;
+    color: #9B9B9B
+}
+
+#opcoescontatouser {
+    
+    font-size: 18px;
+    color: #9B9B9B
+}
+
+#caixademensagem {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 18px;
+    width: 536px;
+    height: 78px; 
+    color: #9B9B9B;
+}
+
 .paragrafos {
     font-size: 17px;
     font-weight: 200;
@@ -205,13 +229,18 @@ main {
 } */
 
 button {
+    
+    display: flex;
+    justify-content: center;
+    align-items: right;
     background-color: #C2185B;
     color:#FFF;
     border-radius: 5px;
     border: 0.5px solid #C2185B;
     cursor: pointer;
     padding-top: 15px;
-    margin: 50px auto;
+    margin-top: 10px;
+    margin-left: 290px;
     transition-property: background-color, 
 }
 
@@ -307,4 +336,9 @@ footer {
     line-height: 18px;
 
     color: #FFFFFF;
+}
+
+.institucional li {
+    text-decoration: none;
+
 }
