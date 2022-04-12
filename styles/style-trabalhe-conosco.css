@@ -86,14 +86,13 @@ header .logo{
     margin-top: 15px;
     margin-left: 10px;
     font-size: 18px;
-    color: #9B9B9B
+    color: #9B9B9B;
 }
 
 
 #caixaform {
     display: left;
     width: 537px;
-    height: 26px;
     font-size: 18px;
 }
 
@@ -103,7 +102,6 @@ header .logo{
     font-size: 20px;    
     font-family: 'Ropa Sans', sans-serif;
     width: 537px;
-    height: 33px;
     padding-bottom: 15px;
 }
 
@@ -146,6 +144,32 @@ header .logo{
     margin-left: 0px;
     font-size: 18px;
     width: 537px;
+}
+
+.form input {
+    padding: 7px 0px 7px 5px;
+    border-radius: 5px;
+    border: 0.5px solid #575757;
+}
+
+.form select {
+    padding: 7px 0px 7px 5px;
+    border-radius: 5px;
+    border: 0.5px solid #575757;
+}
+
+button {
+    background-color: #C2185B;
+    border-radius: 5px;
+    border: 0.5px solid #C2185B;
+    cursor: pointer;
+    padding-top: 15px;
+    margin: 50px auto;
+    transition: all 0.4s;
+}
+
+button:hover {
+    background-color: #FFF
 }
 
 
