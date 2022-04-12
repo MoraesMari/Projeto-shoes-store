@@ -17,12 +17,12 @@ header {
     width: 100%;
     height: 150px;
     background-color: white;
-    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     margin-bottom: 2px;
+    z-index: 15;
 }
 
 header .logo{
-    
     width: 215px;
     height: 110px;
     cursor: pointer;
@@ -57,11 +57,15 @@ header .logo{
     color: #C2185B;
 }
 
+
 .banner-principal {
     display: flex;
     align-items: center;
+    margin-top: -1px;
     justify-content: center;
     cursor: pointer;
+    position: relative;
+    z-index: -1;
 }
 
 /* Aqui vai a sombra do Banner no TOP
