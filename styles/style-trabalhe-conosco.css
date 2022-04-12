@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ropa Sans', sans-serif;
-   
+
 }
 
 
@@ -45,7 +45,7 @@ main {
     top: 0px;
     z-index: 15;
     cursor: pointer;
-    transition: all 0.5s;
+    transition: 0.5s;
 }
 
 .faixa:hover{
@@ -129,14 +129,6 @@ main {
     font-size: 18px;
 }
 
-#enviarform {
-    background-color: #C2185B;
-    color: white;
-    font-size: 20px;    
-    font-family: 'Ropa Sans', sans-serif;
-    width: 537px;
-    padding-bottom: 15px;
-}
 
 
 #nometelefone {
@@ -221,12 +213,6 @@ main {
     margin: 50px;
 }
 
-/* .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto 50px;
-} */
 
 button {
     
@@ -236,16 +222,19 @@ button {
     background-color: #C2185B;
     color:#FFF;
     border-radius: 5px;
-    border: 0.5px solid #C2185B;
+    border: none;
     cursor: pointer;
     padding-top: 15px;
     margin-top: 10px;
     margin-left: 290px;
-    transition-property: background-color, 
+    transition-property: background-color; 
 }
 
-button:hover {
-    background-color: #FFF
+form button:hover {
+    background-color: #FFF;
+    border: none;
+    color: #C2185B;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .subir {
@@ -259,7 +248,8 @@ button:hover {
     font-size: 20px;
     position: fixed;
     right: 20px;
-    bottom: -35px; 
+    bottom: 10px;
+    cursor: pointer; 
 }
 
 .subir:hover {
@@ -276,7 +266,7 @@ footer {
     background: #C2185B;
     color: #FFF;
     padding: 9px 9px 9px 19px;
-    
+
 }
 
 .logo-footer {
