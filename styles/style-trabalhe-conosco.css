@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ropa Sans', sans-serif;
-
 }
 
 
@@ -21,11 +20,9 @@ header {
     margin-bottom: 2px;
     position: relative;
     z-index: 16;
-    
 }
 
 header .logo{
-    
     width: 215px;
     height: 110px;
     cursor: pointer;
@@ -59,22 +56,12 @@ main {
     margin-top: 10px;
 }
 
-
-
 #menu {
     padding-top: 20px;
     font-size: 24px;
 }
 
-#menu ul { 
-    float: left;
-    list-style-type: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
 #menu ul li { 
-    
     display: inline
 }
 
@@ -89,26 +76,20 @@ main {
     color: #C2185B;
 }
 
-
 #titulo1 {
-    margin-top: 3%;
-    margin-left: 15%;
-    font-size: 39px;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 40px;
     color: #575757;
-}
-
-.form {
-        margin-left: 15%;
 }
 
 #nomeform {
     display: flex;
     justify-content: left;
     align-items: left;
-    margin-top: 15px;
-    margin-left: 10px;
+    margin: 15px 0px 10px 10px;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
     color: #9B9B9B
 }
 
@@ -116,118 +97,117 @@ main {
     display: flex;
     justify-content: left;
     align-items: left;
-    margin-top: 15px;
-    margin-left: 10px;
-    font-size: 18px;
+    margin: 15px 0px 10px 10px;
+    font-size: 20px;
     color: #9B9B9B;
+    margin-bottom: 10px;
 }
-
-
-#caixaform {
-    display: left;
-    width: 537px;
-    font-size: 18px;
-}
-
-
 
 #nometelefone {
     display: flex;
     justify-content: left;
     align-items: left;
-    margin-top: 15px;
-    margin-left: 10px;
-    font-size: 18px;
+    margin: 15px 0px 10px 10px;
+    font-size: 20px;
     color: #9B9B9B;
-}
-
-#telefone {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    margin-top: 15px;
-    margin-left: 0px;
-    font-size: 18px;
-    width: 537px;
+    margin-bottom: 10px;
 }
 
 #nomedepartamentos {
     display: flex;
     justify-content: left;
     align-items: left;
-    margin-top: 15px;
-    margin-left: 10px;
-    font-size: 18px;
+    margin: 15px 0px 10px 10px;
+    font-size: 20px;
     color: #9B9B9B;
-}
-
-#departamentos {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    margin-top: 15px;
-    margin-left: 0px;
-    font-size: 18px;
-    width: 537px;
-}
-
-.form input {
-    padding: 7px 0px 7px 5px;
-    border-radius: 5px;
-    border: 0.5px solid #575757;
-}
-
-.form select {
-    padding: 7px 0px 7px 5px;
-    border-radius: 5px;
-    border: 0.5px solid #575757;
+    margin-bottom: 10px;
 }
 
 #disponibilidade {
-    
-    font-size: 18px;
-    color: #9B9B9B
+    font-size: 20px;
+    color: #9B9B9B;
+    margin: 15px 0px 10px 10px;
+}
+
+#input-dispo {
+    margin: 20px 0px 30px 1px;
+}
+
+#label-dispo{
+    margin: 20px 20px 30px 0px;
 }
 
 #opcoescontatouser {
-    
-    font-size: 18px;
-    color: #9B9B9B
-}
-
-#caixademensagem {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    font-size: 18px;
-    width: 536px;
-    height: 78px; 
+    font-size: 20px;
     color: #9B9B9B;
+    margin: 10px;
 }
 
-.paragrafos {
-    font-size: 17px;
-    font-weight: 200;
-    display: flex;
-    flex-direction: column;
-    margin: 50px;
+#opcoescontatouser input {
+    font-size: 18px;
+    margin: 20px 3px 30px 10px;
 }
 
+#caixademensagem  label {
+    font-size: 20px;
+    color: #9B9B9B;
+    margin: 10px 0px 10px 10px;
+    padding-bottom: 10px;
+}
 
-button {
-    
-    display: flex;
-    justify-content: center;
-    align-items: right;
+#caixa-mensagem{
+    font-size: 18px;
+    margin: 15px 0px 30px 0px;
+    display: left;
+    width: 537px;
+    height: 100px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#caixaform {
+    display: left;
+    width: 537px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#curriculo label{
+    font-size: 20px;
+    color: #9B9B9B;
+    margin: 15px auto 10px 10px;
+}
+
+#curriculo input{
+    font-size: 15px;
+    width: 537px;
+    margin: 20px 3px 30px 0px;
+}
+
+form input {
+    padding: 7px 0px 7px 5px;
+    border-radius: 5px;
+    border: 0.5px solid #575757;
+}
+
+form select {
+    padding: 7px 0px 7px 5px;
+    border-radius: 5px;
+    border: 0.5px solid #575757;
+}
+
+form button {
+    width: 537px;
+    height: 50px;
     background-color: #C2185B;
     color:#FFF;
     border-radius: 5px;
+    font-size: 25px;
     border: none;
     cursor: pointer;
-    padding-top: 15px;
-    margin-top: 10px;
-    margin-left: 290px;
-    transition-property: background-color; 
+    margin-top: 30px;
+    padding-top: 5px;
+    transition: background-color 0.3s; 
 }
 
 form button:hover {
@@ -237,9 +217,25 @@ form button:hover {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.paragrafos {
+    font-size: 18px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px 0px 100px;
+}
+
+.container {
+    display: flex;
+    justify-content:space-between;
+    margin: 20px 150px 50px;
+}
+
 .subir {
+    color: #FFF;
+    font-weight: 200;;
     border-radius: 50px;
-    border: #777777;
+    border: none;
     width: 100px;
     height: 100px;
     background-color: #777777;
@@ -256,8 +252,6 @@ form button:hover {
     background-color: #9B9B9B;
 }
 
-
-
 footer { 
     display: flex;
     justify-content: flex-end;
@@ -270,7 +264,6 @@ footer {
 }
 
 .logo-footer {
-    
     width: 233px;
     height: 123px;
     left: 127px;
@@ -311,24 +304,16 @@ footer {
 }
 
 .institucional {
-    
     width: 246px;
     height: 161px;
     left: 886px;
     top: 56px;
     display: inline-block;
     text-decoration: none;
-
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 50;
     font-size: 15px;
     line-height: 18px;
-
     color: #FFFFFF;
-}
-
-.institucional li {
-    text-decoration: none;
-
 }
