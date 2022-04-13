@@ -9,22 +9,14 @@
 </head>
 <body>
   <header>
-    <a href="/index.html"> <img class="logo" src="/img/logo-color.png"  alt="Logo">
+    <a href="/index.html"><img class="logo" src="/img/logo-color.png"  alt="Logo">
     <div>
-        <nav id="menu">
+      <nav id="menu">
         <ul>
-          <li>      
-            <a>TODOS OS PRODUTOS</a>  
-          </li> 
-          <li>           
-            <a>COLEÇÕES</a>           
-          </li>  
-          <li>             
-            <a>OUTLET</a>          
-          </li>  
-          <li>            
-            <a href="/trabalhe-conosco.html">TRABALHE CONOSCO</a>         
-           </li>  
+          <li><a>TODOS OS PRODUTOS</a></li> 
+          <li><a>COLEÇÕES</a></li>  
+          <li><a>OUTLET</a></li>  
+          <li><a href="/trabalhe-conosco.html">TRABALHE CONOSCO</a></li>  
         </ul>     
       </nav>
     </div>
@@ -36,122 +28,112 @@
     </div>
 
     <h1 id="titulo1">Faça parte do nosso time</h1>
+
     <div class="container">
-      
-      <form class="form" action = "/trabalhe-conosco.html" method="POST">
+      <div class="formulario">
+        <form action="/trabalhe-conosco.html" method="POST">
         
-        <label id="nomeform" for="nome">Nome</label>
-        <input id="caixaform" type="text" id="nome" name="nome" required placeholder="Digite seu nome">
-                
-        <label id="emailform" for="email">E-mail</label required>
-        <input id="caixaform" type="email" id="email" name="email" required placeholder="seuemail@email.com">
-            
-        <label for="nome" id="nometelefone">Telefone</label>
-        <input type="text" id="telefone" name="nome" placeholder="(xx) xxxxx-xxxx" data-mask="(00) 00000-0000" data-mask-selectonfocus="true">
-      
-        <label for="departamentos" id="nomedepartamentos">Departamentos</label>
-        <select name="departamentos" id="departamentos" required>
-          <option selected disabled>Selecione</option>
-          <option value="marketing">Marketing</option>
-          <option value="vendas">Compra e Venda</option>
-          <option value="atendimento">Atendimento e Suporte ao Cliente</option>
-          <option value="desenvolvedor">Desenvolvedor Web</option>
-        </select>
-        
-          <br>
-        <section id="disponibilidade">
-          
-          <label>Disponibilidade</label>
-         
-            <input type="checkbox" id="Integral" name="Integral">
-            <label for="disponibilidade">Integral (8h)</label>
-                              
-            <input type="checkbox" id="Meioperiodo" name="Meioperiodo">
-            <label for="disponibilidade">Meio período (4h)</label>
-                
-            <input type="checkbox" id="Freelancer" name="Freelancer">
-            <label for="disponibilidade">Freelancer</label>
-                
-        </section>
-        
-        <section id="opcoescontatouser">
-          
-          <label id="perguntausuario">Qual a melhor forma para entrarmos em contato com você?</label>
-
-          <input type="radio" name="radio" value="E-mail">E-Mail</input>
-          <input type="radio" name="radio" value="Ligacao">Ligação</input>
-          <input type="radio" name="radio" value="WhatsApp">WhatsApp</input>
-
-        </section>
-        
-        <section id="caixademensagem"></div>
-
-          <label for="mensagem">Mensagem</label>
-          <input type="textarea" id="caixademensagem" name="caixademensagem">
+          <label id="nomeform" for="nome">Nome</label>
+          <input id="caixaform" type="text" id="nome" name="nome" required placeholder="Digite seu nome">
                   
-        </section>
-
-        <section id="curriculo">
-
-        <label for="Curriculo">Currículo</label>
-        <input type="file" />
-
-        </section>
-
-        <section>
-          <button id="enviarform" type="submit">Enviar</button>
-        </section> 
+          <label id="emailform" for="email">E-mail</label required>
+          <input id="caixaform" type="email" id="email" name="email" required placeholder="seuemail@email.com">
+              
+          <label for="nome" id="nometelefone">Telefone</label>
+          <input type="text" id="caixaform" name="nome" placeholder="(xx) xxxxx-xxxx" data-mask="(00) 00000-0000" data-mask-selectonfocus="true">
         
-      </form>
+          <label for="departamentos" id="nomedepartamentos">Departamentos</label>
+          <select name="departamentos" id="caixaform" required>
+            <option selected disabled>Selecione</option>
+            <option value="marketing">Marketing</option>
+            <option value="vendas">Compra e Venda</option>
+            <option value="atendimento">Atendimento e Suporte ao Cliente</option>
+            <option value="desenvolvedor">Desenvolvedor Web</option>
+          </select>
+          
+          <section id="disponibilidade">
+            <label>Disponibilidade</label>
+            <br>
+              <input type="checkbox" id="input-dispo" name="integral">
+              <label id="label-dispo">Integral (8h)</label>
+                             
+              <input type="checkbox" id="input-dispo" name="meioperiodo">
+              <label id="label-dispo">Meio período (4h)</label>
+               
+              <input type="checkbox" id="input-dispo" name="freelancer">
+              <label id="label-dispo">Freelancer</label>     
+          </section>
+          
+          <section id="opcoescontatouser">
+            <label id="opcoescontato">Qual a melhor forma para entrarmos em contato com você?</label>
+            <br>
+            <div class="caixa-contato">
+              <input type="radio" name="radio" value="E-mail">E-Mail</input>
+              <input type="radio" name="radio" value="Ligacao">Ligação</input>
+              <input type="radio" name="radio" value="WhatsApp">WhatsApp</input>
+            </div>
+          </section>
+          
+          <section id="caixademensagem">
+            <label for="mensagem">Mensagem</label>
+            <br>
+            <input type="textarea" id="caixa-mensagem" name="caixademensagem">     
+          </section>
   
-      <div class="paragrafos">
-        <p>Lorem ipsum dolor sit amet. Est aspernatur iusto vel distinctio harum ea pariatur delectus et accusamus 
-          nihil ut assumenda nemo est impedit rerum et molestiae harum. Est consectetur iste a quisquam sapiente hic
-           aliquid veritatis aut pariatur mollitia sed omnis delectus et vero beatae! Cum nesciunt fuga eos modi labore
-            qui nesciunt provident.
+          <section id="curriculo">
+            <label for="Curriculo">Currículo</label>
+            <input type="file"/>
+          </section>
   
-          Sit ducimus libero sed reprehenderit corporis non earum laboriosam est voluptatem magni sed quaerat 
-          possimus officiis dolor! Qui dolores repellat cum perspiciatis mollitia qui reprehenderit soluta qui 
-          dolore doloremque a ipsa consequuntur aut ullam quia. Aut excepturi assumenda et iste unde aut odio harum. 
-          Ut praesentium consequatur rem quidem repellat sed aliquid commodi vel voluptatibus sapiente aut praesentium 
-          animi ut architecto soluta ut nulla iure.</p>
+          <button id="enviarform" type="submit">Enviar</button>
+          
+        </form>
       </div>
 
       <div class="paragrafos">
         <p>Lorem ipsum dolor sit amet. Est aspernatur iusto vel distinctio harum ea pariatur delectus et accusamus 
-          nihil ut assumenda nemo est impedit rerum et molestiae harum. Est consectetur iste a quisquam sapiente hic
-           aliquid veritatis aut pariatur mollitia sed omnis delectus et vero beatae! Cum nesciunt fuga eos modi labore
+            nihil ut assumenda nemo est impedit rerum et molestiae harum. Est consectetur iste a quisquam sapiente hic
+            aliquid veritatis aut pariatur mollitia sed omnis delectus et vero beatae! Cum nesciunt fuga eos modi labore
             qui nesciunt provident.
   
-          Sit ducimus libero sed reprehenderit corporis non earum laboriosam est voluptatem magni sed quaerat 
-          possimus officiis dolor! Qui dolores repellat cum perspiciatis mollitia qui reprehenderit soluta qui 
-          dolore doloremque a ipsa consequuntur aut ullam quia. Aut excepturi assumenda et iste unde aut odio harum. 
-          Ut praesentium consequatur rem quidem repellat sed aliquid commodi vel voluptatibus sapiente aut praesentium 
-          animi ut architecto soluta ut nulla iure.</p>
+            Sit ducimus libero sed reprehenderit corporis non earum laboriosam est voluptatem magni sed quaerat 
+            possimus officiis dolor! Qui dolores repellat cum perspiciatis mollitia qui reprehenderit soluta qui 
+            dolore doloremque a ipsa consequuntur aut ullam quia. Aut excepturi assumenda et iste unde aut odio harum. 
+            Ut praesentium consequatur rem quidem repellat sed aliquid commodi vel voluptatibus sapiente aut praesentium 
+            animi ut architecto soluta ut nulla iure.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet. Est aspernatur iusto vel distinctio harum ea pariatur delectus et accusamus 
+            nihil ut assumenda nemo est impedit rerum et molestiae harum. Est consectetur iste a quisquam sapiente hic
+            aliquid veritatis aut pariatur mollitia sed omnis delectus et vero beatae! Cum nesciunt fuga eos modi labore
+            qui nesciunt provident.
+    
+            Sit ducimus libero sed reprehenderit corporis non earum laboriosam est voluptatem magni sed quaerat 
+            possimus officiis dolor! Qui dolores repellat cum perspiciatis mollitia qui reprehenderit soluta qui 
+            dolore doloremque a ipsa consequuntur aut ullam quia. Aut excepturi assumenda et iste unde aut odio harum. 
+            Ut praesentium consequatur rem quidem repellat sed aliquid commodi vel voluptatibus sapiente aut praesentium 
+            animi ut architecto soluta ut nulla iure.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet. Est aspernatur iusto vel distinctio harum ea pariatur delectus et accusamus 
+              nihil ut assumenda nemo est impedit rerum et molestiae harum. Est consectetur iste a quisquam sapiente hic
+              aliquid veritatis aut pariatur mollitia sed omnis delectus et vero beatae! Cum nesciunt fuga eos modi labore
+              qui nesciunt provident.
+      
+              Sit ducimus libero sed reprehenderit corporis non earum laboriosam est voluptatem magni sed quaerat 
+              possimus officiis dolor! Qui dolores repellat cum perspiciatis mollitia qui reprehenderit soluta qui 
+              dolore doloremque a ipsa consequuntur aut ullam quia. Aut excepturi assumenda et iste unde aut odio harum. 
+              Ut praesentium consequatur rem quidem repellat sed aliquid commodi vel voluptatibus sapiente aut praesentium 
+              animi ut architecto soluta ut nulla iure.</p>
       </div>
 
-      <div class="paragrafos">
-        <p>Lorem ipsum dolor sit amet. Est aspernatur iusto vel distinctio harum ea pariatur delectus et accusamus 
-          nihil ut assumenda nemo est impedit rerum et molestiae harum. Est consectetur iste a quisquam sapiente hic
-           aliquid veritatis aut pariatur mollitia sed omnis delectus et vero beatae! Cum nesciunt fuga eos modi labore
-            qui nesciunt provident.
-  
-          Sit ducimus libero sed reprehenderit corporis non earum laboriosam est voluptatem magni sed quaerat 
-          possimus officiis dolor! Qui dolores repellat cum perspiciatis mollitia qui reprehenderit soluta qui 
-          dolore doloremque a ipsa consequuntur aut ullam quia. Aut excepturi assumenda et iste unde aut odio harum. 
-          Ut praesentium consequatur rem quidem repellat sed aliquid commodi vel voluptatibus sapiente aut praesentium 
-          animi ut architecto soluta ut nulla iure.</p>
-      </div>
     </div>
 
     <button class="subir">SUBIR</button>
-    
   </main>
 
   <footer>
     <img class="logo-footer" src="img/logo-white.png">
-    <p class="texto-footer" >  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <div class="categorias" >
+    <p class="texto-footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="categorias">
       <ul>
         <li>Categorias</li>
         <li>Sandalias</li>
