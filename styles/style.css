@@ -71,12 +71,6 @@ header .logo{
     z-index: -1;
 }
 
-/* Aqui vai a sombra do Banner no TOP
-.banner-principal {
-    border-top: rgb(96, 96, 97) solid 1px;
-    
-} */
-
 .titulo-conteudo {      
     display:flex;
     justify-content: center;
@@ -163,18 +157,32 @@ header .logo{
 
 .produto-destaque {
     display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content:center;
+    padding: 50px;
+}
+
+.modelo-destaque{
+    display:flex;
+    justify-content:space-around;
     align-items: center;
-    padding: 100px;
+}
+
+.sandalia-destaque {
+    margin: 30px;
+}
+
+.vestido-destaque {
+    margin: 40px;
 }
 
 .titulo-produto-destaque {
-    flex-wrap: wrap;
     font-size: 35px;
+    display:flex;
+    flex-wrap:wrap;
+    position: relative;
+    top: 200px;
+    left: 250px;
 }
-
 
 button {
     background-color: #C2185B;
@@ -185,6 +193,9 @@ button {
     font-size: 35px;
     color: #fff;
     border: none;
+    position: relative;
+    top: 220px;
+    left: 215px;
 }
 
 
@@ -196,7 +207,6 @@ footer {
     background: #C2185B;
     color: #FFF;
     padding: 9px 9px 9px 19px;
-    
 }
 
 .logo-footer {
