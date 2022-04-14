@@ -206,7 +206,7 @@ form button {
     font-size: 25px;
     border: none;
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 20px;
     padding-top: 5px;
     transition: background-color 0.3s; 
 }
@@ -226,6 +226,10 @@ form button:hover {
     margin: 40px 0px 0px 100px;
 }
 
+.paragrafo1 {
+    margin: 0px 0px 30px;
+}
+
 .container {
     display: flex;
     justify-content:space-between;
@@ -237,12 +241,12 @@ form button:hover {
     font-weight: 200;;
     border-radius: 50px;
     border: none;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     background-color: #777777;
     transition: all 0.4s;
     padding: 0px;
-    font-size: 20px;
+    font-size: 17px;
     position: fixed;
     right: 20px;
     bottom: 10px;

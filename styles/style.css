@@ -65,9 +65,9 @@ header .logo{
     align-items: center;
     margin-top: -1px;
     justify-content: center;
-    cursor: pointer;
     position: relative;
     z-index: -1;
+    cursor: pointer;
 }
 
 .titulo-conteudo {      
@@ -156,7 +156,7 @@ header .logo{
 .produto-destaque {
     display:flex;
     justify-content:center;
-    padding: 50px;
+    padding: 10px;
 }
 
 .modelo-destaque{
@@ -166,20 +166,24 @@ header .logo{
 }
 
 .sandalia-destaque {
-    margin: 30px;
+    margin: 0px 30px 50px;
 }
 
 .vestido-destaque {
-    margin: 40px;
+    margin: 0px 40px 50px;
+}
+
+.botao-titulo {
+    margin-left: 210px;
+    position: relative;
+    top: 20vh;
 }
 
 .titulo-produto-destaque {
     font-size: 35px;
     display:flex;
     flex-wrap:wrap;
-    position: relative;
-    top: 200px;
-    left: 250px;
+    margin: 0px 0px 20px 35px;
 }
 
 button {
@@ -191,9 +195,6 @@ button {
     font-size: 35px;
     color: #fff;
     border: none;
-    position: relative;
-    top: 220px;
-    left: 215px;
 }
 
 
